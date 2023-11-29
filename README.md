@@ -11,9 +11,9 @@
 
 *    实验二：火星探测车拍摄照片展示应用实现
 *    实验目的：
-     >1.掌握持久化技术
+     >1.掌握持久化技术  
      >2.掌握HTTP和后台任务  
-     >3.掌握Looper、Handler与HandlerThread   
+     >3.掌握Looper、Handler与HandlerThread    
      
   
 
