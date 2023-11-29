@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#fa8072"
+    android:paddingBottom="35dp"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/simple_dialog"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/simple_dialog"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:background="@color/white"
+            android:layout_marginTop="22dp"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</android.widget.LinearLayout>
