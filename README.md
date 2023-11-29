@@ -8,10 +8,10 @@
      >3.掌握在manifest文中定义多个activity，并指定Launcher Activity  
      >4.掌握Activity的启动模式，和启动模式所对应的Activity和task的关系
 
-
+  ---
 *    实验二：火星探测车拍摄照片展示应用实现
 *    实验目的：
-     >1.掌握持久化技术 
+     >1.掌握持久化技术
      >2.掌握HTTP和后台任务  
      >3.掌握Looper、Handler与HandlerThread   
      
